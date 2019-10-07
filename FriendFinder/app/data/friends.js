@@ -1,4 +1,4 @@
-var friendsArray = [
+var friends = [
     {
         "name":"Trendy Tom",
         "photo":"https://i.redd.it/qywwbwdft2m21.jpg",
@@ -78,11 +78,8 @@ var friendsArray = [
             4,
             1
           ]
-      }
-      
-      
-      
-      
-      
+      }    
   ];
+
+  module.exports = friends;
   
