@@ -2,21 +2,18 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kemeier/FriendFinder.git"
-  },
-  "author": "kelly meier",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kemeier/FriendFinder/issues"
-  },
-  "homepage": "https://github.com/kemeier/FriendFinder#readme",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node":"10.15.3"
   }
 }
